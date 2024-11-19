@@ -27,9 +27,9 @@ id2label = {
     6: 'truck'
 }
 # Define paths
-response_dir = '/home/hamed/projects/datasets/prompt_datasets/bdd100k/blip_response'
-root_path = '/home/hamed/projects/datasets/prompt_datasets/bdd100k/images/'
-json_file = '/home/hamed/projects/datasets/prompt_datasets/bdd100k/image_labels.json'
+response_dir = '/home/user/projects/datasets/prompt_datasets/bdd100k/blip_response'
+root_path = '/home/user/projects/datasets/prompt_datasets/bdd100k/images/'
+json_file = '/home/user/projects/datasets/prompt_datasets/bdd100k/image_labels.json'
 
 # Read the json file
 with open(json_file, 'r') as f:
